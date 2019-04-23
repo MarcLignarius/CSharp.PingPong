@@ -11,7 +11,7 @@ namespace PingPong.Tests
     public void NumberToCountTo_IsEnteredByUser_True()
     {
       PingPongClass testPingPong = new PingPongClass();
-      Assert.AreEqual(true, testPingPong.NumberToCountTo(5));
+      Assert.AreEqual("5", testPingPong.NumberToCountTo(5));
     }
   }
 }
