@@ -8,10 +8,32 @@ namespace PingPong.Tests
   {
 
     [TestMethod]
-    public void NumberToCountTo_IsEnteredByUser_True()
+    public void IsNumberToCountTo_NumberEnteredByUser_True()
     {
       PingPongClass testPingPong = new PingPongClass();
-      Assert.AreEqual("5", testPingPong.NumberToCountTo(5));
+      Assert.AreEqual("4", testPingPong.IsNumberToCountTo(4));
     }
+
+    [TestMethod]
+    public void IsNumberToCountTo_NumberDivisibleByThree_True()
+    {
+      PingPongClass testPingPong = new PingPongClass();
+      Assert.AreEqual("ping", testPingPong.IsNumberToCountTo(3));
+    }
+
+    [TestMethod]
+    public void IsNumberToCountTo_NumberDivisibleByFive_True()
+    {
+      PingPongClass testPingPong = new PingPongClass();
+      Assert.AreEqual("pong", testPingPong.IsNumberToCountTo(5));
+    }
+
+    [TestMethod]
+    public void IsNumberToCountTo_NumberDivisibleByFifteen_True()
+    {
+      PingPongClass testPingPong = new PingPongClass();
+      Assert.AreEqual("ping-pong", testPingPong.IsNumberToCountTo(15));
+    }
+
   }
 }
