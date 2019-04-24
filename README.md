@@ -8,7 +8,7 @@
 
 _This program:_
 * _Takes a number input from the user_
-* _Counts from 1 to the user inputter number_
+* _Counts from 1 to the user inputted number_
 * _Replaces every number divisible by 3 with Ping!_
 * _Replaces every number divisible by 5 with Pong!_
 * _Replaces every number divisible by 3 and 5 with Ping Pong!_
