@@ -3,53 +3,41 @@ using System.Collections.Generic;
 
 namespace PingPong
 {
-  public class PingPongClass
+  public class PingPong
   {
 
-    public List<string> NumbersInOrder(int number)
+    public static void Main()
     {
-      List<string> numberList = new List<string>();
-
-      for (int i = 1; i <= number; i++)
+      PingPong newPingPong = new PingPong();
+      Console.WriteLine("Welcome to Ping Pong program. This program will count up to a number you enter and replace:");
+      Console.WriteLine("- numbers divisible by 3 with 'Ping!'");
+      Console.WriteLine("- numbers divisible by 5 with 'Pong!'");
+      Console.WriteLine("- numbers divisible by 3 and 5 with 'Ping Pong!'");
+      Console.WriteLine("-----------------------");
+      Console.WriteLine("Please enter a number: ");
+      string stringUserInput = Console.ReadLine();
+      int userInput = int.Parse(stringUserInput);
+      for (int i = 1; i <= userInput; i++)
       {
-        numberList.Add(IsNumberToCountTo(i));
+        Console.WriteLine(newPingPong.ReplacePingPong(i));
       }
-      return numberList;
     }
 
-    public string IsNumberToCountTo(int number)
+    public string ReplacePingPong(int number)
     {
       if (number % 15 == 0)
       {
-        return ("ping-pong");
+        return ("Ping Pong!");
       }
       if (number % 3 == 0)
       {
-        return ("ping");
+        return ("Ping!");
       }
       if (number % 5 == 0)
       {
-        return ("pong");
+        return ("Pong!");
       }
       return number.ToString();
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-        // function makeArray(number) {
-        //   var output = [];
-        //   var numberString = number.toString();
-        //   for (var i = 0; i <= number; i++)
-        //   output.push(changeNumber(i));
-        //   return output;
