@@ -1,28 +1,31 @@
-# _{Application Name}_
+# _Ping Pong!_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _C# Project from Epicodus C# Week 1, 04/23/2019_
 
 #### By _**Marc Davies, Zsuzsanna Mangu**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This program:_
+* _Takes a number input from the user_
+* _Counts from 1 to the user inputter number_
+* _Replaces every number divisible by 3 with Ping!_
+* _Replaces every number divisible by 5 with Pong!_
+* _Replaces every number divisible by 3 and 5 with Ping Pong!_
 
 ## Setup/Installation Requirements
 
 * _Clone from GitHub_
-* _Open index.html_
-* _Alternatively, launch marclignarius.github.io/projectname_
+* _From your terminal, mono PingPong.exe_
 
 ## Specs
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
-| When the user enters a number, the program returns that number | 1 | 1 |
-| When the user enters 3, the program returns ping | 3 | ping |
-| When the user enters 5, the program returns pong | 5 | pong |
-| When the user enters 3 and 5, the program returns ping-pong | 15 | ping-pong |
-| When the user enters a number, the program returns number from 1 to that number | 2 | 1, 2 |
+| This program counts from 1 to a user inputted number | 5 | 1, 2, 3, 4, 5 |
+| The program changes any number divisible by 3 to "Ping!" | 3 | 1, 2, Ping! |
+| The program changes any number divisible by 5 to "Pong!" | 3 | 1, 2, 3, 4, Pong! |
+| The program changes any number divisible by 3 and 5 to "Ping Pong!" | 15 | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, Ping Pong! |
 
 ## Known Bugs
 
@@ -34,7 +37,7 @@ _Please contact me at marcdaviesriot@gmail.com if you run into any issues or hav
 
 ## Technologies Used
 
-_HTML, CSS, JS, Bootstrap, jQuery, Atom._
+_C#_
 
 ### License
 

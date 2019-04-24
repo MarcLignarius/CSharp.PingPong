@@ -8,31 +8,31 @@ namespace PingPong.Tests
   {
 
     [TestMethod]
-    public void IsNumberToCountTo_NumberEnteredByUser_True()
+    public void ReplacePingPong_NumberEnteredByUser_True()
     {
-      PingPongClass testPingPong = new PingPongClass();
-      Assert.AreEqual("4", testPingPong.NumbersInOrder(4)[3]);
+      PingPong testPingPong = new PingPong();
+      Assert.AreEqual("4", testPingPong.ReplacePingPong(4)[3]);
     }
 
     [TestMethod]
-    public void IsNumberToCountTo_NumberDivisibleByThree_String()
+    public void ReplacePingPong_NumberDivisibleByThree_String()
     {
-      PingPongClass testPingPong = new PingPongClass();
-      Assert.AreEqual("ping", testPingPong.NumbersInOrder(3)[2]);
+      PingPong testPingPong = new PingPong();
+      Assert.AreEqual("Ping!", testPingPong.ReplacePingPong(3)[2]);
     }
 
     [TestMethod]
-    public void IsNumberToCountTo_NumberDivisibleByFive_String()
+    public void ReplacePingPong_NumberDivisibleByFive_String()
     {
-      PingPongClass testPingPong = new PingPongClass();
-      Assert.AreEqual("pong", testPingPong.NumbersInOrder(5)[4]);
+      PingPong testPingPong = new PingPong();
+      Assert.AreEqual("Pong!", testPingPong.ReplacePingPong(5)[4]);
     }
 
     [TestMethod]
-    public void IsNumberToCountTo_NumberDivisibleByFifteen_String()
+    public void ReplacePingPong_NumberDivisibleByFifteen_String()
     {
-      PingPongClass testPingPong = new PingPongClass();
-      Assert.AreEqual("ping-pong", testPingPong.NumbersInOrder(15)[14]);
+      PingPong testPingPong = new PingPong();
+      Assert.AreEqual("Ping-Pong!", testPingPong.ReplacePingPong(15)[14]);
     }
 
   }

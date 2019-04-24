@@ -446,21 +446,21 @@
     "newtonsoft.json/9.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lh8uysA/X8a4HaHsLkawACNKLpMpg6ezTTv0O1OGmaXuKGnHCRD1PcdygXukE/8OkiO0EmK0pI+b6Dmo2giVKw==",
+      "sha512": "sha512-ev/zm6QuU3I7UlUX1nYACELN68Hkxq32JNcBg4EwDUuDLBFxxh2RJEQx7M9W8N0iizlkk6YtavpT2SMZT4ukrA==",
       "path": "newtonsoft.json/9.0.1",
       "hashPath": "newtonsoft.json.9.0.1.nupkg.sha512"
     },
     "system.collections.nongeneric/4.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-H3zY8A3JdaHLUo8VhE8+SNJFP0oWenxlPvXUx7W72q38864XvmM5hPjhG0yskqiJKPbgmL36OlpMyHxRvIhbQg==",
+      "sha512": "sha512-odGeuWsjfAXv6+dUH2kvbPnLnbByITrH7MJE9Jc6UtnCi5oSN3b5dOzTzFy1b/2yDwBAD663+Bl6ts+R9SfDTg==",
       "path": "system.collections.nongeneric/4.0.1",
       "hashPath": "system.collections.nongeneric.4.0.1.nupkg.sha512"
     },
     "system.collections.specialized/4.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-DV3IfEGMWpdB4nSC1uDQA6wefvGvRAxpGye4a6EfOsRS4YItbJC5cFhw0OxZypnSQrwQ1XJECdc3iJNK4SWCIg==",
+      "sha512": "sha512-9H0+pYecrdysIgMGHUVntEhumkhPD9pssdLM4RSCzyyMdjguS3yQTTipKtsQJXnOmMPvUBKJBD73y2fx3mXGzQ==",
       "path": "system.collections.specialized/4.0.1",
       "hashPath": "system.collections.specialized.4.0.1.nupkg.sha512"
     },
@@ -474,14 +474,14 @@
     "system.componentmodel.primitives/4.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-u6j+x6hbe1ViiJtGSsC3PV6O0irX/SZZfYJUTd2sddfUpU7lQhRJ7899GWZQu/83lqFhRF10Ha0USrtzZE2lyA==",
+      "sha512": "sha512-QqbOE13yPnTyfDbMf4XD5g8c0TNnjfa0Us+rrr/0QTfx7aCznhNOVC/qscCgI0pNk1uz5CdnCKhc+lv12M87Sw==",
       "path": "system.componentmodel.primitives/4.1.0",
       "hashPath": "system.componentmodel.primitives.4.1.0.nupkg.sha512"
     },
     "system.componentmodel.typeconverter/4.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Xf4TlS8q78GgTICDgg3kg5cFfZ52xvXPPCadhbBs9Z5u7E3WESO/SIP65FGmeuKcS5dtcTA2440AxUG0dxmENw==",
+      "sha512": "sha512-9xacFngo4ReHevPkD3QZnn5RA8CzuYD8pnv2y9eW7fK/CuGwIBH28EpgrqB9jThEvxhHrXoX6p4bNOPvxTRgsw==",
       "path": "system.componentmodel.typeconverter/4.1.0",
       "hashPath": "system.componentmodel.typeconverter.4.1.0.nupkg.sha512"
     },
@@ -516,7 +516,7 @@
     "system.runtime.serialization.primitives/4.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-R21Np60r3i5vcHgp6eGDqs5ptuEaKBaetghcaKZwnL30aZnzH8ijnu5zdKcXO3NBdSxLN2H3/35tKbYeid6Zjw==",
+      "sha512": "sha512-uZuLBqmSRrL7VKDeEu7A0/xJs/goDYSaqzk/tj/WJ5dLPxP72ZMkqf464jIqnWe+n42I0lUSICniRRhjOhAYTg==",
       "path": "system.runtime.serialization.primitives/4.1.1",
       "hashPath": "system.runtime.serialization.primitives.4.1.1.nupkg.sha512"
     },
